@@ -90,7 +90,6 @@
 		  		<tr> 
 		  			<th>#</th> 
 		  			<th>Name</th> 
-		  			<th>Picture</th> 
 		  			<th>Address</th> 
 		  			<th>Google PIN</th> 
 		  		</tr> 
@@ -99,7 +98,6 @@
 		  		<tr class="success"> 
 		  			<th scope="row">1</th> 
 		  			<td>Sanford Middle School</td> 
-		  			<td></td> 
 		  			<td>
 		  				<address>
 						  <strong>Sanford Middle School</strong><br>
@@ -114,7 +112,6 @@
 		  		<tr> 
 		  			<th scope="row">2</th> 
 		  			<td>Cypress Grove Park</td> 
-		  			<td></td> 
 		  			<td>
 		  				<address>
 						  <strong>Cypress Grove Park</strong><br>
