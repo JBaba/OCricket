@@ -14,13 +14,7 @@
   box-sizing: border-box;
 }
 
-body {
-  background: #e1e1e1;
-  padding: 1em;
-  font: normal normal normal 12px/1.333 'Helvetica Neue', arial, sans-serif;
-  font-size: .75rem;
-  color: #95979d;
-}
+
 
 .button {
   display: block;

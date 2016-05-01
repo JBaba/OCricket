@@ -3,33 +3,24 @@
 <head>
   <title>Teams</title>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Latest compiled and minified CSS -->
-  <link href="..css/bootstrap/css/bootstrap.min.css" rel="stylesheet">	
-
-  <script> 
-    $(function(){
-      $("#includedContent").load("../includes/Menubar.html"); 
-    });
-  </script> 
+  <link href="../css/bootstrap/css/bootstrap.min.css" rel="stylesheet" />	
   
     <!-- Body -->
-  <link rel="stylesheet" href="../css/homeBackground.css" />
+  
   <link rel="stylesheet" href="../css/teamlist.css" />
-  <link rel="stylesheet" href="../css/menubar.css" />
+  <link rel="stylesheet" href="../css/menubar.css" />  
+  <link rel="stylesheet" href="../css/homeBackground.css" />
 
-</head>
-<body>
-
-  <div id="includedContent"></div> 
-
-    <script type="text/javascript">
+	<script type="text/javascript">
       $('.message a').click(function(){
          $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
       });
-
     </script>
+</head>
+<body>
+
+  <%@ include file="../includes/Menubar.jsp" %>
 
   <div class="home-page">
     <div class="form">
@@ -98,6 +89,11 @@
         </a>
     </div>
   </div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="../css/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 </html>

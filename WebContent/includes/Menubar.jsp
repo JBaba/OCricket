@@ -15,12 +15,12 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li > <!-- class="active" -->
-        	<a href="#">
+        	<a href="../index.html">
         		<font class="fontColor">Home</font> <span class="sr-only">(current)</span>
         	</a>
         </li>
         <li>
-        	<a href="pages/Teams.html">
+        	<a href="../pages/Teams.jsp">
         		<font class="fontColor">Teams</font>
         	</a>
         </li>
@@ -58,7 +58,7 @@
         	<div class="positionCenter">
         		<button type="button" class="btn btn-success">
     				<strong>
-    					<a href="login.html">
+    					<a href="../login.html">
     						<font class="menuBackColor">Login</font>
     					</a>
     				</strong>
@@ -66,7 +66,7 @@
         	</div>
         </li>
         <li>
-        	<a href="Register.html">
+        	<a href="../Register.html">
         		<font class="fontColor">
         			Register
         		</font>
@@ -76,9 +76,3 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="../css/bootstrap/js/bootstrap.min.js"></script>
