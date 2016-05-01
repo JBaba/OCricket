@@ -77,7 +77,7 @@
 	<%@ include file="../includes/Menubar.jsp" %>
 
 	<div class="home-page">
-	  <div class="form">
+	  <div class="form" style="height: 150%;">
 	   	<div class="panel panel-default">
 		  <!-- Default panel contents -->
 		  <div class="panel-heading">
