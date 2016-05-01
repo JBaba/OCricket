@@ -8,29 +8,18 @@
     <title>OC!</title>
 
 	<!-- Latest compiled and minified CSS -->
-	<link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/menubar.css"/>
+	
+	<!-- Body -->
+	<link rel="stylesheet" href="css/homeBackground.css">
 
+    <script type="text/javascript">
+      $('.message a').click(function(){
+         $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+      });
 
-	<style type="text/css">
-		
-		.navbar-default{
-			background-color:rgb(24,56,7);
-		}
-
-		.fontColor{
-			color: rgb(187,250,117);
-		}
-
-		.menuBackColor{
-			color: rgb(24,56,7);
-		}
-
-		.positionCenter{
-			padding-top: 9px;
-			padding-bottom: 9px;
-		}
-
-	</style>
+    </script>
 	
 </head>
 
@@ -59,7 +48,7 @@
 	        	</a>
 	        </li>
 	        <li>
-	        	<a href="#">
+	        	<a href="pages/Teams.html">
 	        		<font class="fontColor">Teams</font>
 	        	</a>
 	        </li>
@@ -116,15 +105,7 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
 
-	<!-- Body -->
-	<link rel="stylesheet" href="css/homeBackground.css">
 
-    <script type="text/javascript">
-      $('.message a').click(function(){
-         $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
-      });
-
-    </script>
 
 	<div class="home-page">
 	  <div class="form">
@@ -145,7 +126,7 @@
 		  		</tr> 
 		  	</thead> 
 		  	<tbody> 
-		  		<tr> 
+		  		<tr class="success"> 
 		  			<th scope="row">1</th> 
 		  			<td>Lions</td> 
 		  			<td>15</td> 
@@ -157,7 +138,7 @@
 		  			<td>12</td> 
 		  			<td>110.23</td> 
 		  		</tr> 
-		  		<tr> 
+		  		<tr class="success"> 
 		  			<th scope="row">3</th> 
 		  			<td>Riseres</td> 
 		  			<td>9</td> 
