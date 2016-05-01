@@ -15,12 +15,12 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li > <!-- class="active" -->
-        	<a href="../index.html">
+        	<a href="<%=request.getContextPath()%>/index.jsp">
         		<font class="fontColor">Home</font> <span class="sr-only">(current)</span>
         	</a>
         </li>
         <li>
-        	<a href="../pages/Teams.jsp">
+        	<a href="<%=request.getContextPath()%>/pages/Teams.jsp">
         		<font class="fontColor">Teams</font>
         	</a>
         </li>
@@ -58,7 +58,7 @@
         	<div class="positionCenter">
         		<button type="button" class="btn btn-success">
     				<strong>
-    					<a href="../login.html">
+    					<a href="<%=request.getContextPath()%>/login.html">
     						<font class="menuBackColor">Login</font>
     					</a>
     				</strong>
@@ -66,7 +66,7 @@
         	</div>
         </li>
         <li>
-        	<a href="../Register.html">
+        	<a href="<%=request.getContextPath()%>/Register.html">
         		<font class="fontColor">
         			Register
         		</font>
