@@ -25,7 +25,7 @@
   <div class="home-page">
     <div class="form">
         <a class="button teach-me">
-          <span class="item">Teach me to file my taxes</span>
+          <span class="item">Lions</span>
           <span class="meta category">Teach Me</span>
           <i class="clock"></i>
           <span class="meta expiry">Mar 12, 2013</span>
@@ -34,7 +34,7 @@
         </a>
 
         <a class="button">
-          <span class="item">Tutor my 2 daughters</span>
+          <span class="item">Dragons</span>
           <span class="meta category">Other</span>
           <i class="clock"></i>
           <span class="meta expiry">Apr 2, 2013</span>
@@ -43,8 +43,7 @@
         </a>
 
         <a class="button handyman">
-          <span class="item">Painting Floor Boards
-          </span>
+          <span class="item">Risers</span>
           <span class="meta category">Handyman</span>
           <i class="clock"></i>
           <span class="meta expiry">Mar 10, 2013</span>
@@ -53,7 +52,7 @@
         </a>
 
         <a class="button pick-up-delivery">
-          <span class="item">Buy composting worms</span>
+          <span class="item">Warriors</span>
           <span class="meta category">Teach Me</span>
           <i class="clock"></i>
           <span class="meta expiry">Dec 17, 2013</span>
@@ -62,29 +61,11 @@
         </a>
 
         <a class="button">
-          <span class="item">Find a Boler trailer for sale</span>
+          <span class="item">Real Indians</span>
           <span class="meta category">Other</span>
           <i class="clock"></i>
           <span class="meta expiry">exp: Apr 1, 2013</span>
           <span class="meta cost">$10</span>
-          <i class="chevron"></i>
-        </a>
-
-        <a class="button">
-          <span class="item">Make my Concordia COMPILATION</span>
-          <span class="meta category">Teach Me</span>
-          <i class="clock"></i>
-          <span class="meta expiry">Mar 12, 2013</span>
-          <span class="meta cost">$30</span>
-          <i class="chevron"></i>
-        </a>
-
-        <a class="button teach-me">
-          <span class="item">Teach me Japanese</span>
-          <span class="meta category">Teach Me</span>
-          <i class="clock"></i>
-          <span class="meta expiry">Mar 12, 2013</span>
-          <span class="meta cost">$30</span>
           <i class="chevron"></i>
         </a>
     </div>

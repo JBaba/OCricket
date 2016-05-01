@@ -8,11 +8,11 @@
     <title>OC!</title>
     
 	<!-- Latest compiled and minified CSS -->
-	<link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-	<link rel="stylesheet" href="css/menubar.css"/>
+	<link href="../css/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="../css/menubar.css"/>
 	
 	<!-- Body -->
-	<link rel="stylesheet" href="css/homeBackground.css" />
+	<link rel="stylesheet" href="../css/homeBackground.css" />
 
     <script type="text/javascript">
       $('.message a').click(function(){
@@ -26,44 +26,48 @@
 
 <body>
 
-	<%@ include file="/includes/Menubar.jsp" %>
+	<%@ include file="../includes/Menubar.jsp" %>
 
 	<div class="home-page">
 	  <div class="form">
 	   	<div class="panel panel-default">
 		  <!-- Default panel contents -->
 		  <div class="panel-heading">
-		  	LEAGUE TABLE
+		  	Team Contact Information
 		  </div>
 
 		  <!-- Table -->
 		  <table class="table table-striped">
 		  	<thead>
 		  		<tr> 
-		  			<th>Pos.</th> 
+		  			<th>#</th> 
 		  			<th>Team</th> 
-		  			<th>W</th> 
-		  			<th>Points</th> 
+		  			<th>Name</th> 
+		  			<th>Number</th> 
+		  			<th>Email</th> 
 		  		</tr> 
 		  	</thead> 
 		  	<tbody> 
 		  		<tr class="success"> 
 		  			<th scope="row">1</th> 
 		  			<td>Lions</td> 
-		  			<td>15</td> 
-		  			<td>138.68</td> 
+		  			<td>Naimish Viradia</td> 
+		  			<td>(123)-123-1234</td> 
+		  			<td>a@gmail.com</td> 
 		  		</tr> 
 		  		<tr> 
 		  			<th scope="row">2</th> 
 		  			<td>Dragons</td> 
-		  			<td>12</td> 
-		  			<td>110.23</td> 
+		  			<td>Naimish Viradia</td> 
+		  			<td>(123)-123-1234</td> 
+		  			<td>a@gmail.com</td> 
 		  		</tr> 
 		  		<tr class="success"> 
 		  			<th scope="row">3</th> 
 		  			<td>Risers</td> 
-		  			<td>9</td> 
-		  			<td>78.3</td> 
+		  			<td>Naimish Viradia</td> 
+		  			<td>(123)-123-1234</td> 
+		  			<td>a@gmail.com</td> 
 		  		</tr> 
 		  	</tbody>
 		  </table>

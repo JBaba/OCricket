@@ -30,12 +30,12 @@
         	</a>
         </li>
         <li>
-        	<a href="#">
+        	<a href="<%=request.getContextPath()%>/pages/Grounds.jsp">
         		<font class="fontColor">Grounds</font>
         	</a>
         </li>
         <li>
-        	<a href="#">
+        	<a href="<%=request.getContextPath()%>/pages/ContactTeams.jsp">
         		<font class="fontColor">Contact Teams</font>
         	</a>
         </li>
