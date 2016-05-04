@@ -31,38 +31,147 @@
 	<div class="home-page">
 	  <div class="form">
 	   	<div class="panel panel-default">
+	   	
+	   	<div class="row">
+	   	
+
+	   	  <!-- Batting table -->
+		  <div class="col-md-4">
+
+		  	  <!-- Default panel contents -->
+			  <div class="panel-heading">
+			  	Batting
+			  </div>
+		
+			  <!-- Table -->
+			  <table class="table table-striped">
+			  	<thead>
+			  		<tr> 
+			  			<th>Player</th> 
+			  			<th>M</th>
+			  			<th>I</th> 
+			  			<th>R</th>
+			  			<th>HS</th>  
+			  		</tr> 
+			  	</thead> 
+			  	<tbody> 
+			  		<tr class="success"> 
+			  			<th scope="row">1</th> 
+			  			<td>Lions</td>
+			  			<td>15</td>
+			  			<td>10</td>
+			  			<td>5</td> 
+			  		</tr> 
+			  		<tr> 
+			  			<th scope="row">2</th> 
+			  			<td>Dragons</td> 
+			  			<td>12</td> 
+			  			<td>10</td>
+			  			<td>2</td>
+			  		</tr> 
+			  		<tr class="success"> 
+			  			<th scope="row">3</th> 
+			  			<td>Risers</td> 
+			  			<td>19</td> 
+			  			<td>10</td>
+			  			<td>9</td>
+			  		</tr> 
+			  	</tbody>
+			  </table>
+
+		  </div>
+		  <!-- Bowling table -->
+		  <div class="col-md-4">
+		  
+		  		<!-- Default panel contents -->
+			  <div class="panel-heading">
+			  	Bowling
+			  </div>
+		
+			  <!-- Table -->
+			  <table class="table table-striped">
+			  	<thead>
+			  		<tr> 
+			  			<th>Player</th> 
+			  			<th>M</th>
+			  			<th>I</th>
+			  			<th>O</th> 
+			  			<th>R</th>
+			  			<th>W</th>  
+			  		</tr> 
+			  	</thead> 
+			  	<tbody> 
+			  		<tr class="success"> 
+			  			<th scope="row">1</th> 
+			  			<td>Lions</td>
+			  			<td>15</td>
+			  			<td>10</td>
+			  			<td>5</td> 
+			  			<td>5</td>
+			  		</tr> 
+			  		<tr> 
+			  			<th scope="row">2</th> 
+			  			<td>Dragons</td> 
+			  			<td>12</td> 
+			  			<td>10</td>
+			  			<td>2</td>
+			  			<td>5</td>
+			  		</tr> 
+			  		<tr class="success"> 
+			  			<th scope="row">3</th> 
+			  			<td>Risers</td> 
+			  			<td>19</td> 
+			  			<td>10</td>
+			  			<td>9</td>
+			  			<td>5</td>
+			  		</tr> 
+			  	</tbody>
+			  </table>
+		  		
+
+		  </div>
+		</div>
+	   	
 		  <!-- Default panel contents -->
 		  <div class="panel-heading">
 		  	LEAGUE TABLE
 		  </div>
-
+	
 		  <!-- Table -->
 		  <table class="table table-striped">
 		  	<thead>
 		  		<tr> 
 		  			<th>Pos.</th> 
-		  			<th>Team</th> 
-		  			<th>W</th> 
+		  			<th>Team</th>
+		  			<th>Total</th> 
+		  			<th>Win</th>
+		  			<th>Los</th> 
 		  			<th>Points</th> 
 		  		</tr> 
 		  	</thead> 
 		  	<tbody> 
 		  		<tr class="success"> 
 		  			<th scope="row">1</th> 
-		  			<td>Lions</td> 
-		  			<td>15</td> 
+		  			<td>Lions</td>
+		  			<td>15</td>
+		  			<td>10</td>
+		  			<td>5</td> 
 		  			<td>138.68</td> 
 		  		</tr> 
 		  		<tr> 
 		  			<th scope="row">2</th> 
 		  			<td>Dragons</td> 
 		  			<td>12</td> 
+		  			<td>10</td>
+		  			<td>2</td>
 		  			<td>110.23</td> 
 		  		</tr> 
 		  		<tr class="success"> 
 		  			<th scope="row">3</th> 
 		  			<td>Risers</td> 
-		  			<td>9</td> 
+		  			<td>19</td> 
+		  			<td>10</td>
+		  			<td>9</td>
 		  			<td>78.3</td> 
 		  		</tr> 
 		  	</tbody>
