@@ -1,0 +1,2 @@
+# reset password
+mysqld --defaults-file="C:\\Data\\Install\\mysql\\my.ini" --init-file=C:\\Data\\init.txt
